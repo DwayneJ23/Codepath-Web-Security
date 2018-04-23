@@ -40,7 +40,7 @@ Time spent: 4 hours spent in total
   - [X] GIF Walkthrough: 
   - ![](https://i.imgur.com/LaSg7QU.gif )
   - [X] Steps to recreate: 
-    - Create a file that is larger than 2 MB. On Mac your can use the following command in the terminal: `mkfile -n 3m test.jpg`. This will create a 3 MB file named test.jpg. Rename the file with the intended Javascript code to be presented on error.
+    - Create a file that is larger than 2 MB. On a Mac operating system you can use the following command in the terminal: `mkfile -n 3m test.jpg`. This will create a 3 MB file named test.jpg. Rename the file with the intended Javascript code to be presented on error.
     i.e. `Test<img src= a onerror=alert('PAWNED')>.jpg`
   - [X] Affected source code:
     - [Link 4 - Security issue 5](https://wordpress.org/news/2017/05/wordpress-4-7-5/)
@@ -62,11 +62,11 @@ Time spent: 4 hours spent in total
   - [X] Summary: 
     - Vulnerability types: User 
     - Tested in version: 4.1.1
-    - Fixed in version: Pathed via plugins (Wordfence)
+    - Fixed in version: Patched via plugins (Wordfence)
   - [X] GIF Walkthrough: 
     ![](https://i.imgur.com/xXdRmky.gif)
   - [X] Steps to recreate:
-    - By entering a valid user name, Wordpress notifies you if the password is incorrect and provides a reset link. A brute force dictionary attack can the be executed to gain access to the account targeted account. You can use tools such as WPScan to gain access to the account by using the following commmand: Use the following command to brute force the password for user root:
+    - By entering a valid user name, Wordpress notifies you if the password is incorrect and provides a reset link. A brute force dictionary attack can then be executed to gain access to the targeted account. You can use tools such as WPScan to gain access to the account by using the following commmand:
 
       `wpscan –url [wordpress url]–wordlist [path to wordlist]–username [username to brute force]–threads [number of threads to use]`
 
