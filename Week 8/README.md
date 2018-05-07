@@ -37,7 +37,7 @@ Vulnerability #2: SQL Injection (SQLi)
 
 Vulnerability #1: Username Enumeration
 - If a valid user name is entered but with the wrong password, the error display will be in bold: **“Log in was unsuccessful”**
-- If the user name does not exist, the error message will not be bold: **“Log in was unsuccessful”**
+- If the user name does not exist, the error message will not be bold: “Log in was unsuccessful”
 
 ![](https://i.imgur.com/bKJq4je.gif)
 
